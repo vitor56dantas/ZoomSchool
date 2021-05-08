@@ -67,7 +67,6 @@ span.psw {
 
 .bck {
   background: rgba(163, 181, 204, 0.8);
-  border-radius: 20px 20px 0px 0px;
   width: 400px;
 }
 
@@ -97,4 +96,22 @@ footer a {
   color: white;
   float: right;
   margin: 0px 10px 0px 10px;
+}
+
+.navlogin {
+  width: 200px;
+  border-radius: 20px 0px 0px 0px;
+  background: rgba(163, 181, 204, 0.8);
+}
+.navlogin a {
+  color: #004067;
+}
+
+.navcadastro {
+  width: 200px;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.navcadastro a {
+  color: #ff9600;
 }
