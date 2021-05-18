@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="app.component.css" />
   </head>
 
-  <body  class="capa">
+  <body class="capa">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -52,60 +52,35 @@
           </nav>
         </div>
       </div>
-      <div class="row justify-content-end">
+      <div class="row justify-content-end mt-80">
         <div class="col-md-6 col-sm-12">
-
-        </div>
-      </div>
-      <div class="row justify-content-end">
-        <div class="col-md-6 col-sm-12">
-           <ul class="nav navtabs justify-content-center">
-                <li class="nav-item  navlogin">
-                  <a href="" class="nav-link text-sm-center">Fazer Logon</a>
-                </li>
-                <li class="nav-item bg-dark navcadastro">
-                  <a href="" class="nav-link text-sm-center">Criar uma conta</a>
-                </li>
-              </ul>
+          <ul class="nav navtabs justify-content-center">
+            <li class="nav-item navlogin">
+              <a href="" class="nav-link text-sm-center">Fazer Logon</a>
+            </li>
+            <li class="nav-item bg-dark navcadastro">
+              <a href="" class="nav-link text-sm-center">Criar uma conta</a>
+            </li>
+          </ul>
           <form action="action_page.php" method="post">
-
-
             <div class="container bck">
+              <label for="inst" class="posicao mt-4"><b>Instituição</b></label>
+              <input type="text" name="inst" required class="bck3" />
 
-              <label for="inst"><b>Instituição</b></label>
-              <input
-                type="text"
-                placeholder="Insira a sua instituição"
-                name="inst"
-                required
-              />
+              <label for="uname" class="posicao"><b>Usuário</b></label>
+              <input type="text" name="uname" required class="bck3" />
 
-              <label for="uname"><b>Usuário</b></label>
-              <input
-                type="text"
-                placeholder="Insira o seu usuário"
-                name="uname"
-                required
-              />
+              <label for="psw" class="posicao"><b>Senha</b></label>
+              <input type="password" name="psw" required class="bck3" />
+            </div>
 
-              <label for="psw"><b>Senha</b></label>
-              <input
-                type="password"
-                placeholder="Insira sua senha"
-                name="psw"
-                required
-              />
-
-              <button type="submit">Login</button>
+            <div class="container bck2">
               <label>
                 <input type="checkbox" checked="checked" name="remember" />
                 Lembre de mim
               </label>
-            </div>
-
-            <div class="container bck2">
-              <button type="button" class="cancelbtn">Cancelar</button>
-              <span class="psw">Esqueci minha <a href="#">senha</a></span>
+              <a href="#" class="teste">Esqueci minha senha</a>
+              <button type="submit">Login</button>
             </div>
           </form>
         </div>
